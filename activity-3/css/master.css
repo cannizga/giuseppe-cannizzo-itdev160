@@ -1,19 +1,30 @@
 body {
     background-color: rgb(150,150,150);}
 
-h1 {
+h2 {
     text-align: center;
     text-transform: uppercase;
     font-size: 35pt;
     color: white;
     background-color: DarkCyan;}
 
-h2 {
+h3 {
     text-align: center;
     line-height: 1.8em;
     font-size: 25pt;
     color: white;
     background-color: #ee3e80;}
+
+h4 {
+    text-align: center;
+    line-height: 1.8em;
+    font-size: 25pt;
+    color: white;
+    background-color: #ee3e80;
+    }
+
+h6 { line-height: 6em;
+}
 
 p {
     text-align: center;
