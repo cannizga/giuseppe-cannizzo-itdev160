@@ -1,35 +1,62 @@
 body {
+    font-family: fantasy;
     background-color: rgb(150,150,150);}
 
 h2 {
     text-align: center;
     text-transform: uppercase;
-    font-size: 35pt;
+    font-size: 40pt;
+    line-height: 2.1em;
     color: white;
-    background-color: DarkCyan;}
+    background-color: DarkCyan;
+    text-shadow: 2px 2px 0px grey;
+    }
 
 h3 {
     text-align: center;
     line-height: 1.8em;
-    font-size: 25pt;
+    font-size: 30pt;
     color: white;
-    background-color: #ee3e80;}
+    background-color: #ee3e80;
+    text-shadow: 2px 2px 0px grey;
+    }
 
 h4 {
     text-align: center;
     line-height: 1.8em;
-    font-size: 25pt;
+    font-size: 30pt;
     color: white;
-    background-color: #ee3e80;
+    background-color: blue;
+    text-shadow: 2px 2px 0px grey;
     }
 
 h6 { line-height: 6em;
 }
 
+h7 { line-height: 6em;
+}
+
+footer {font-size: 17;
+
+}
+
 p {
     text-align: center;
     font-weight: bold;
+    font-style: italic;
     word-spacing: .01em;
+    font-size: 17pt;
     letter-spacing: 0.05em;
     line-height: 1.8em;
     background-color: white;}
+
+a:link {
+      color: blue;
+      text-decoration: none;}
+a:visited {
+      color: deeppink;}
+a:hover {
+      color: blue;
+      text-decoration: underline;}
+a:active {
+      color: darkcyan;}
