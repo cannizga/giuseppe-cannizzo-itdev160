@@ -1,17 +1,39 @@
 <html>
 
  <head>
-  <title>Using External CSS</title>
+  <title> Using External CSS </title>
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans">
   <link rel="stylesheet" type="text/css" href="css/master.css">
  </head>
 
  <body>
+
+ <title>Using Internal CSS</title>
+ <style type="text/css">
+  p2 {
+    font-family: fantasy;
+    font-weight: bold;
+    font-size: 35;
+    color: black;}
+  p3 {
+     font-family: fantasy;
+     font-weight: bold;
+     font-size: 35;
+     color: black;}
+ </style>
+
+  <title> External JavaScript </title>
+  <script src="js/scripts.js" charset="utf-8"></script>
+  <p2> <center> <script> document.getElementById(message); document.write(message); </script> </center></p2>
   <main>
   <h1> <center> <img src= "C:/Users/Giuseppe/Desktop/idea2.jpg"
     alt =""
     width = "800"
-    height = "350"/> </center> </h1>
+    height = "350"/>
+   </center> </h1>
+  <p3> <center> <script> document.getElementById(message2); document.write("Student Price:" + " " + message2 + "$"); </script> <center> </p3>
+   <p> </p>
+   <script> document.getElementById(price); document.write("Price:" + price + "$") </script>
   <h2> The Playstation 4 Pro </h2>
   <h3> Product Description </h3>
   <p>The Playstation 4 Pro is a newer version of the Playstation 4 That allows a Native 2160p Resolution on video games, Videos, Movies, and Shows. With An HDR TV, Compatible PS4 Games Display an Unbelievably Vibrant and Lifelike Range Of Colors. It is also equipped with 1 TB of memory built in storage so you can download more games.</p>
