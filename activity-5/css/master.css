@@ -70,6 +70,11 @@ h8 {
     position: relative;
     left: 15px;}
 
+ul {
+  text-align: center;
+  position: relative;
+    }
+
 footer {color: rgb(241, 196, 15); font-size: 17; text-shadow: 2px 2px 0px rgb(28, 40, 51);}
 
 p {
