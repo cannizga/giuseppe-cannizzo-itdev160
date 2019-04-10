@@ -30,7 +30,7 @@ function userMessages (nameSwitch) {
 
    }
 
-   messages.push(userInput + "<br>");
+   messages.push('-' + userInput + "<br>");
 
    document.getElementById('displayMessage').innerHTML = messages.join('');
 }
