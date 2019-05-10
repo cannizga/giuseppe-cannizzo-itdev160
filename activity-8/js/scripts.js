@@ -30,7 +30,7 @@ function closeModal() {
 function saveContent() {
   var title = get('edit-title-text');
   var text = get('edit-content-text');
-  var content = get('diplay-content');
+  var content = get('display-content');
 
   var newTitle = document.createElement('h2');
   var newTitleText = document.createTextNode(title.value);
